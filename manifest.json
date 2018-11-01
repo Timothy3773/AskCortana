@@ -1,0 +1,21 @@
+{
+    "name": "Ask Cortana",
+    "short_name": "Ask Cortana",
+    "author": "Arlo Godfrey",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Edge's Ask Cortana feature for Chrome and Opera",
+    "permissions": [
+        "<all_urls>",
+        "geolocation",
+        "tabs",
+        "contextMenus"
+    ],
+    "icons": { 
+        "32": "cortana-icon-32x.png",
+        "48": "cortana-icon-48x.png"
+    },
+    "background": {
+        "page": "background.html"
+    }
+}
